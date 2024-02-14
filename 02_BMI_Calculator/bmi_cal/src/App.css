@@ -1,0 +1,61 @@
+.App{
+  background:#fff;
+  width: 350px;
+  min-height: 500px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+
+.container h2{
+  padding: 35px 0 15px 0;
+  font-weight: 600;   
+}
+
+.container form div{
+  padding: 20px 0 25px 0; 
+  font-size: 16px;
+  font-weight: 600; 
+}
+
+input{
+  padding: 7px;
+  width: 60%;
+  margin-left: 10px;
+  font-size: 15px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  outline: none;
+}
+
+.btn{
+  width: 80%;
+  padding: 10px;
+  margin: 6px;
+  font-size: 15px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:nth-child(1){
+  background: #24A0ED;
+  /* outline: none; */
+  border: none;
+  /* color: #fff; */
+  font-weight: 700;
+}
+.btn:nth-child(1):hover{
+  background: #2195dc;
+}
+
+.btn:nth-child(2){
+  background: #777;
+  color: #fff;
+  font-weight: 700;
+}
+.btn:nth-child(2):hover{
+  background: #888;
+}
