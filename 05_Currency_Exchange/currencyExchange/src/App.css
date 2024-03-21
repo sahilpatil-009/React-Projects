@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900');
+ 
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #F0F2F5;
+  font-family: "Inter", sans-serif;
+}
+ 
+.card
+{
+    background-color: #ffffff;
+    width: 55%;
+    min-width: 550px;
+    padding: 50px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 8px;
+    box-shadow: 0px 0px 30px 2px rgb(0, 0, 0, 0.5);
+}
+ 
+h1{
+  padding: 10px;
+  width: 50%;
+  text-align: center;
+  background: #222;
+  font-size: 30px;
+  margin-bottom: 2rem;
+  font-weight: 700;
+  color: #fff;
+  border-radius: 10px;
+}
+ 
+.currency_exchnage
+{
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  /* align-items: center; */
+}
+ 
+.input_container {
+  width: 30%;
+  height: fit-content;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: #fff;
+}
+ 
+.icon {
+  width: 20px;
+  position: absolute;
+  z-index: 99;
+  left: 12px;
+  bottom: 9px;
+}
+ 
+.input_label {
+  font-size: 0.95rem;
+  color: #8B8E98;
+  font-weight: 600;
+  background: #fff;
+}
+ 
+.input_field {
+  width: auto;
+  height: 60px;
+  background: #fff;
+  padding: 0 0 0 40px;
+  border-radius: 7px;
+  outline: none;
+  border: 1px solid #e5e5e5;
+  filter: drop-shadow(0px 1px 0px #efefef)
+    drop-shadow(0px 1px 0.5px rgba(239, 239, 239, 0.5));
+  transition: all 0.3s cubic-bezier(0.15, 0.83, 0.66, 1);
+}
+ 
+.input_field:focus {
+  border: 1px solid transparent;
+  background: #fff;
+  box-shadow: 0px 0px 0px 2px #242424;
+  background-color: transparent;
+}
+ 
+.output
+{
+  background: #ffffff;
+}
+ 
+ 
+h2
+{
+  width: 50%;
+  margin-top: 20px;
+  background-color: #E8F8FD;
+  padding: 26px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgb(0, 0, 0, 0.2);
+}
